@@ -1,0 +1,1201 @@
+Microchip MPLAB XC8 Compiler V1.44 ()
+
+Linker command line:
+
+-W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v1.44\dat\en_msgs.txt -cs \
+  -h+dist/default/production\Scrolling_display.X.production.sym \
+  --cmf=dist/default/production\Scrolling_display.X.production.cmf -z \
+  -Q16F886 -oC:\Users\FLORIN~1\AppData\Local\Temp\s398.2 \
+  -Mdist/default/production/Scrolling_display.X.production.map -E1 -ver=XC8 \
+  -ASTACK=0110h-016fh -pstack=STACK -ACODE=00h-07FFhx4 -ASTRCODE=00h-01FFFh \
+  -ASTRING=00h-0FFhx32 -ACONST=00h-0FFhx32 -AENTRY=00h-0FFhx32 \
+  -ACOMMON=070h-07Fh -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh \
+  -ABANK2=0110h-016Fh -ABANK3=0190h-01EFh \
+  -ARAM=020h-06Fh,0A0h-0EFh,0110h-016Fh,0190h-01EFh \
+  -AABS1=020h-07Fh,0A0h-0EFh,0110h-016Fh,0190h-01EFh -ASFR0=00h-01Fh \
+  -ASFR1=080h-09Fh -ASFR2=0100h-010Fh -ASFR3=0180h-018Fh \
+  -preset_vec=00h,intentry=04h,init,end_init -ppowerup=CODE -pcinit=CODE \
+  -pfunctab=ENTRY -ACONFIG=02007h-02008h -pconfig=CONFIG -DCONFIG=2 \
+  -AIDLOC=02000h-02003h -pidloc=IDLOC -DIDLOC=2 -AEEDATA=00h-0FFh/02100h \
+  -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 \
+  -DENTRY=2 -k C:\Users\FLORIN~1\AppData\Local\Temp\s398.obj \
+  dist/default/production\Scrolling_display.X.production.obj 
+
+Object code version is 3.11
+
+Machine type is 16F886
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\FLORIN~1\AppData\Local\Temp\s398.obj
+                end_init                             12       12        3        8       0
+                reset_vec                             0        0        3        0       0
+                config                             2007     2007        2     400E       0
+dist/default/production\Scrolling_display.X.production.obj
+                cinit                                15       15       31        8       0
+                intentry                              4        4        E        8       0
+                text18                              7AA      7AA       49      D0C       0
+                text17                              7F3      7F3        7      D0C       0
+                text16                              2D6      2D6      262        8       0
+                text15                              E6B      E6B       30     1CD6       0
+                text14                              DB9      DB9       20     1B72       0
+                text13                              FBE      FBE       42     1F7C       0
+                text12                              F07      F07       3B     1E0E       0
+                text11                              686      686       71      D0C       0
+                text10                              E43      E43       28     1C86       0
+                text9                               F42      F42       3D     1E84       0
+                text8                               E1F      E1F       24     1C3E       0
+                text7                               E9B      E9B       35     1D36       0
+                text6                               DD9      DD9       23     1BB2       0
+                text5                               6F7      6F7       63      D0C       0
+                text4                               5CF      5CF       30        8       0
+                text3                               538      538       97        8       0
+                text2                               ED0      ED0       37     1DA0       0
+                text1                               F7F      F7F       3F     1EFE       0
+                maintext                             46       46      290        8       0
+                cstackBANK0                          20       20       2E       20       1
+                cstackCOMMON                         70       70        B       70       1
+                inittext                            DA8      DA8       11     1B50       0
+                dataBANK3                           190      190       23      190       1
+                dataBANK1                            A0       A0       50       A0       1
+                dataBANK0                            4E       4E       10       20       1
+                bssBANK0                             5E       5E        3       20       1
+                bssCOMMON                            7B       7B        3       70       1
+                strings                             600      600       86      C00       0
+                idataBANK3                          DFC      DFC       23     1BF8       0
+                idataBANK1                          75A      75A       50      D0C       0
+                idataBANK0                          D98      D98       10     1B30       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   STACK          
+
+        CLASS   CODE           
+                end_init                             12       12        3         0
+                cinit                                15       15       31         0
+                intentry                              4        4        E         0
+                reset_vec                             0        0        3         0
+                text18                              7AA      7AA       49         0
+                text17                              7F3      7F3        7         0
+                text16                              2D6      2D6      262         0
+                text15                              E6B      E6B       30         0
+                text14                              DB9      DB9       20         0
+                text13                              FBE      FBE       42         0
+                text12                              F07      F07       3B         0
+                text11                              686      686       71         0
+                text10                              E43      E43       28         0
+                text9                               F42      F42       3D         0
+                text8                               E1F      E1F       24         0
+                text7                               E9B      E9B       35         0
+                text6                               DD9      DD9       23         0
+                text5                               6F7      6F7       63         0
+                text4                               5CF      5CF       30         0
+                text3                               538      538       97         0
+                text2                               ED0      ED0       37         0
+                text1                               F7F      F7F       3F         0
+                maintext                             46       46      290         0
+                inittext                            DA8      DA8       11         0
+                idataBANK3                          DFC      DFC       23         0
+                idataBANK1                          75A      75A       50         0
+                idataBANK0                          D98      D98       10         0
+
+        CLASS   STRCODE        
+
+        CLASS   STRING         
+                strings                             600      600       86         0
+
+        CLASS   CONST          
+
+        CLASS   ENTRY          
+
+        CLASS   COMMON         
+                cstackCOMMON                         70       70        B         1
+                bssCOMMON                            7B       7B        3         1
+
+        CLASS   BANK0          
+                cstackBANK0                          20       20       2E         1
+                dataBANK0                            4E       4E       10         1
+                bssBANK0                             5E       5E        3         1
+
+        CLASS   BANK1          
+                dataBANK1                            A0       A0       50         1
+
+        CLASS   BANK2          
+
+        CLASS   BANK3          
+                dataBANK3                           190      190       23         1
+
+        CLASS   RAM            
+
+        CLASS   ABS1           
+                abs_s1                               7E       7E        2         1
+
+        CLASS   SFR0           
+
+        CLASS   SFR1           
+
+        CLASS   SFR2           
+
+        CLASS   SFR3           
+
+        CLASS   CONFIG         
+                config                             2007     2007        2         0
+
+        CLASS   IDLOC          
+
+        CLASS   EEDATA         
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
+
+                reset_vec                      000000  000003  000003         0       0  CODE        2
+                intentry                       000004  0005FB  0005FF         8       0  CODE        2
+                cstackBANK0                    000020  000041  000061        20       1  BANK0       1
+                cstackCOMMON                   000070  00000E  00007E        70       1  COMMON      1
+                dataBANK1                      0000A0  000050  0000F0        A0       1  BANK1       1
+                dataBANK3                      000190  000023  0001B3       190       1  BANK3       1
+                strings                        000600  000086  000686       C00       0  STRING      2
+                text11                         000686  000174  0007FA       D0C       0  CODE        2
+                idataBANK0                     000D98  000010  000DA8      1B30       0  CODE        2
+                inittext                       000DA8  000011  000DB9      1B50       0  CODE        2
+                text14                         000DB9  000020  000DD9      1B72       0  CODE        2
+                text6                          000DD9  000023  000DFC      1BB2       0  CODE        2
+                idataBANK3                     000DFC  000023  000E1F      1BF8       0  CODE        2
+                text8                          000E1F  000024  000E43      1C3E       0  CODE        2
+                text10                         000E43  000028  000E6B      1C86       0  CODE        2
+                text15                         000E6B  000030  000E9B      1CD6       0  CODE        2
+                text7                          000E9B  000035  000ED0      1D36       0  CODE        2
+                text2                          000ED0  000037  000F07      1DA0       0  CODE        2
+                text12                         000F07  00003B  000F42      1E0E       0  CODE        2
+                text9                          000F42  00003D  000F7F      1E84       0  CODE        2
+                text1                          000F7F  00003F  000FBE      1EFE       0  CODE        2
+                text13                         000FBE  000042  001000      1F7C       0  CODE        2
+                config                         002007  000002  002009      400E       0  CONFIG      2
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            0061-006F              F           1
+        BANK2            0110-016F             60           1
+        BANK3            01B3-01EF             3D           1
+        CODE             0003-0003              1           2
+                         05FF-05FF              1
+                         07FA-0D97              6
+                         1000-1FFF            800
+        CONST            0003-0003              1           2
+                         05FF-05FF              1
+                         07FA-0D97            100
+                         1000-1FFF            100
+        EEDATA           2100-21FF            100           2
+        ENTRY            0003-0003              1           2
+                         05FF-05FF              1
+                         07FA-0D97            100
+                         1000-1FFF            100
+        IDLOC            2000-2003              4           2
+        RAM              0061-006F              F           1
+                         0110-016F             60
+                         01B3-01EF             3D
+        SFR0             0000-001F             20           1
+        SFR1             0080-009F             20           1
+        SFR2             0100-010F             10           1
+        SFR3             0180-018F             10           1
+        STACK            0110-016F             60           1
+        STRCODE          0003-0003              1           2
+                         05FF-05FF              1
+                         07FA-0D97            59E
+                         1000-1FFF           1000
+        STRING           0003-0003              1           2
+                         05FF-05FF              1
+                         07FA-0D97            100
+                         1000-1FFF            100
+
+                                  Symbol Table
+
+?_strlen                       cstackBANK0  0025
+_ANSEL                         (abs)        0188
+_ANSELH                        (abs)        0189
+_CARRY                         (abs)        0018
+_CHAR_DATA                     strings      0606
+_EEADR                         (abs)        010D
+_EECON1                        (abs)        018C
+_EECON2                        (abs)        018D
+_EEDATA                        (abs)        010C
+_GIE                           (abs)        005F
+_INTCONbits                    (abs)        000B
+_IOCB                          (abs)        0096
+_OPTION_REG                    (abs)        0081
+_PIR1bits                      (abs)        000C
+_PORTA                         (abs)        0005
+_PORTAbits                     (abs)        0005
+_PORTB                         (abs)        0006
+_PORTBbits                     (abs)        0006
+_PORTCbits                     (abs)        0007
+_PR2                           (abs)        0092
+_RD                            (abs)        0C60
+_T2CON                         (abs)        0012
+_T2CONbits                     (abs)        0012
+_TMR0                          (abs)        0001
+_TMR2                          (abs)        0011
+_TMR2IF                        (abs)        0061
+_TRISA                         (abs)        0085
+_TRISB                         (abs)        0086
+_TRISC                         (abs)        0087
+_WPUB                          (abs)        0095
+_WR                            (abs)        0C61
+_WREN                          (abs)        0C62
+__CFG_BOR4V$BOR40V             (abs)        0000
+__CFG_BOREN$ON                 (abs)        0000
+__CFG_CP$OFF                   (abs)        0000
+__CFG_CPD$OFF                  (abs)        0000
+__CFG_FCMEN$ON                 (abs)        0000
+__CFG_FOSC$INTRC_NOCLKOUT      (abs)        0000
+__CFG_IESO$ON                  (abs)        0000
+__CFG_LVP$OFF                  (abs)        0000
+__CFG_MCLRE$OFF                (abs)        0000
+__CFG_PWRTE$OFF                (abs)        0000
+__CFG_WDTE$OFF                 (abs)        0000
+__CFG_WRT$OFF                  (abs)        0000
+__Habs1                        abs1         0000
+__Hbank0                       bank0        0000
+__Hbank1                       bank1        0000
+__Hbank2                       bank2        0000
+__Hbank3                       bank3        0000
+__HbssBANK0                    bssBANK0     0000
+__HbssCOMMON                   bssCOMMON    0000
+__Hcinit                       cinit        0046
+__Hclrtext                     clrtext      0000
+__Hcode                        code         0000
+__Hcommon                      common       0000
+__Hconfig                      config       2009
+__HcstackBANK0                 cstackBANK0  0000
+__HcstackCOMMON                cstackCOMMON 0000
+__HdataBANK0                   dataBANK0    0000
+__HdataBANK1                   dataBANK1    0000
+__HdataBANK3                   dataBANK3    0000
+__Heeprom_data                 eeprom_data  0000
+__Hend_init                    end_init     0015
+__Hfunctab                     functab      0000
+__HidataBANK0                  idataBANK0   0000
+__HidataBANK1                  idataBANK1   0000
+__HidataBANK3                  idataBANK3   0000
+__Hidloc                       idloc        0000
+__Hinit                        init         0012
+__Hinittext                    inittext     0000
+__Hintentry                    intentry     0012
+__Hmaintext                    maintext     0000
+__Hpowerup                     powerup      0000
+__Hram                         ram          0000
+__Hreset_vec                   reset_vec    0003
+__Hsfr0                        sfr0         0000
+__Hsfr1                        sfr1         0000
+__Hsfr2                        sfr2         0000
+__Hsfr3                        sfr3         0000
+__Hspace_0                     (abs)        2009
+__Hspace_1                     (abs)        01B3
+__Hspace_2                     (abs)        0000
+__Hspace_3                     (abs)        0000
+__Hstack                       stack        0000
+__Hstrings                     strings      0000
+__Htext                        text         0000
+__Labs1                        abs1         0000
+__Lbank0                       bank0        0000
+__Lbank1                       bank1        0000
+__Lbank2                       bank2        0000
+__Lbank3                       bank3        0000
+__LbssBANK0                    bssBANK0     0000
+__LbssCOMMON                   bssCOMMON    0000
+__Lcinit                       cinit        0015
+__Lclrtext                     clrtext      0000
+__Lcode                        code         0000
+__Lcommon                      common       0000
+__Lconfig                      config       2007
+__LcstackBANK0                 cstackBANK0  0000
+__LcstackCOMMON                cstackCOMMON 0000
+__LdataBANK0                   dataBANK0    0000
+__LdataBANK1                   dataBANK1    0000
+__LdataBANK3                   dataBANK3    0000
+__Leeprom_data                 eeprom_data  0000
+__Lend_init                    end_init     0012
+__Lfunctab                     functab      0000
+__LidataBANK0                  idataBANK0   0000
+__LidataBANK1                  idataBANK1   0000
+__LidataBANK3                  idataBANK3   0000
+__Lidloc                       idloc        0000
+__Linit                        init         0012
+__Linittext                    inittext     0000
+__Lintentry                    intentry     0004
+__Lmaintext                    maintext     0000
+__Lpowerup                     powerup      0000
+__Lram                         ram          0000
+__Lreset_vec                   reset_vec    0000
+__Lsfr0                        sfr0         0000
+__Lsfr1                        sfr1         0000
+__Lsfr2                        sfr2         0000
+__Lsfr3                        sfr3         0000
+__Lspace_0                     (abs)        0000
+__Lspace_1                     (abs)        0000
+__Lspace_2                     (abs)        0000
+__Lspace_3                     (abs)        0000
+__Lstack                       stack        0000
+__Lstrings                     strings      0000
+__Ltext                        text         0000
+__S0                           (abs)        2009
+__S1                           (abs)        01B3
+__S2                           (abs)        0000
+__S3                           (abs)        0000
+___int_sp                      stack        0000
+___latbits                     (abs)        0002
+___sp                          stack        0000
+__end_of_CHAR_DATA             strings      0686
+__end_of__initialization       cinit        0042
+__end_of__stringtab            strings      0606
+__end_of_choose_digit_display  text15       0E9B
+__end_of_clear                 text5        075A
+__end_of_control_speed         text13       1000
+__end_of_delay                 text14       0DD9
+__end_of_display               text17       07FA
+__end_of_eeprom_read           text8        0E43
+__end_of_eeprom_write          text4        05FF
+__end_of_init                  text12       0F42
+__end_of_isr                   text16       0538
+__end_of_left_rotate           text10       0E6B
+__end_of_left_rotate_by_one    text11       06F7
+__end_of_main                  maintext     02D6
+__end_of_rTrim                 text9        0F7F
+__end_of_read_eeprom           text7        0ED0
+__end_of_save_in_eeprom        text3        05CF
+__end_of_send_data             text18       07F3
+__end_of_strlen                text6        0DFC
+__end_of_strncat               text2        0F07
+__end_of_strncpy               text1        0FBE
+__initialization               cinit        0015
+__pbssBANK0                    bssBANK0     005E
+__pbssCOMMON                   bssCOMMON    007B
+__pcstackBANK0                 cstackBANK0  0020
+__pcstackCOMMON                cstackCOMMON 0070
+__pdataBANK0                   dataBANK0    004E
+__pdataBANK1                   dataBANK1    00A0
+__pdataBANK3                   dataBANK3    0190
+__pidataBANK0                  idataBANK0   0D98
+__pidataBANK1                  idataBANK1   075A
+__pidataBANK3                  idataBANK3   0DFC
+__pintentry                    intentry     0004
+__pmaintext                    maintext     0046
+__pstrings                     strings      0600
+__ptext1                       text1        0F7F
+__ptext10                      text10       0E43
+__ptext11                      text11       0686
+__ptext12                      text12       0F07
+__ptext13                      text13       0FBE
+__ptext14                      text14       0DB9
+__ptext15                      text15       0E6B
+__ptext16                      text16       02D6
+__ptext17                      text17       07F3
+__ptext18                      text18       07AA
+__ptext2                       text2        0ED0
+__ptext3                       text3        0538
+__ptext4                       text4        05CF
+__ptext5                       text5        06F7
+__ptext6                       text6        0DD9
+__ptext7                       text7        0E9B
+__ptext8                       text8        0E1F
+__ptext9                       text9        0F42
+__size_of_choose_digit_display (abs)        0000
+__size_of_clear                (abs)        0000
+__size_of_control_speed        (abs)        0000
+__size_of_delay                (abs)        0000
+__size_of_display              (abs)        0000
+__size_of_eeprom_read          (abs)        0000
+__size_of_eeprom_write         (abs)        0000
+__size_of_init                 (abs)        0000
+__size_of_isr                  (abs)        0000
+__size_of_left_rotate          (abs)        0000
+__size_of_left_rotate_by_one   (abs)        0000
+__size_of_main                 (abs)        0000
+__size_of_rTrim                (abs)        0000
+__size_of_read_eeprom          (abs)        0000
+__size_of_save_in_eeprom       (abs)        0000
+__size_of_send_data            (abs)        0000
+__size_of_strlen               (abs)        0000
+__size_of_strncat              (abs)        0000
+__size_of_strncpy              (abs)        0000
+__stringbase                   strings      0605
+__stringtab                    strings      0600
+_buffer                        dataBANK0    0057
+_button_pressed                dataBANK0    0055
+_character                     dataBANK0    0056
+_choose_digit_display          text15       0E6B
+_clear                         text5        06F7
+_control_speed                 text13       0FBE
+_cursor                        bssCOMMON    007D
+_delay                         text14       0DB9
+_display                       text17       07F3
+_display_flag                  bssBANK0     0060
+_eeprom_read                   text8        0E1F
+_eeprom_write                  text4        05CF
+_greeting_message              dataBANK3    0190
+_index                         bssBANK0     005E
+_init                          text12       0F07
+_isr                           text16       02D6
+_left_rotate                   text10       0E43
+_left_rotate_by_one            text11       0686
+_main                          maintext     0046
+_message                       dataBANK1    00A0
+_pressed_time                  bssCOMMON    007B
+_rTrim                         text9        0F42
+_read_eeprom                   text7        0E9B
+_save_in_eeprom                text3        0538
+_send_data                     text18       07AA
+_speed                         dataBANK0    0053
+_strlen                        text6        0DD9
+_strncat                       text2        0ED0
+_strncpy                       text1        0F7F
+btemp                          (abs)        007E
+choose_digit_display@n         cstackBANK0  0026
+clear@m                        cstackBANK0  0030
+clear@message_length           cstackBANK0  002C
+clear@n                        cstackBANK0  002E
+delay@i                        cstackBANK0  0026
+display@ch                     cstackCOMMON 007A
+eeprom_read@addr               cstackBANK0  0026
+eeprom_write@addr              cstackBANK0  0027
+eeprom_write@value             cstackBANK0  0025
+end_of_initialization          cinit        0042
+init_fetch0                    inittext     0DA8
+init_ram0                      inittext     0DAC
+interrupt_function             intentry     0004
+intlevel0                      functab      0000
+intlevel1                      functab      0000
+intlevel2                      functab      0000
+intlevel3                      functab      0000
+intlevel4                      functab      0000
+intlevel5                      functab      0000
+left_rotate@arr                cstackBANK0  0035
+left_rotate@d                  cstackBANK0  0037
+left_rotate@k                  cstackBANK0  003C
+left_rotate@n                  cstackBANK0  0039
+left_rotate_by_one@arr         cstackBANK0  0025
+left_rotate_by_one@j           cstackBANK0  0033
+left_rotate_by_one@n           cstackBANK0  0027
+left_rotate_by_one@temp        cstackBANK0  0031
+main@F1918                     dataBANK0    004E
+main@blank                     cstackBANK0  0041
+main@buffer_length             cstackBANK0  0048
+main@message_length            cstackBANK0  0046
+main@message_length_339        cstackBANK0  004A
+main@message_length_340        cstackBANK0  004C
+rTrim@i                        cstackBANK0  0028
+rTrim@index                    cstackBANK0  0026
+rTrim@str                      cstackBANK0  002A
+read_eeprom@j                  cstackBANK0  002A
+read_eeprom@message_length     cstackBANK0  0029
+read_eeprom@temp               cstackBANK0  0028
+reset_vec                      reset_vec    0000
+save_in_eeprom@j               cstackBANK0  0036
+save_in_eeprom@message_length  cstackBANK0  0035
+save_in_eeprom@temp            cstackBANK0  0034
+saved_w                        (abs)        007E
+send_data@flag                 cstackCOMMON 0073
+send_data@mask                 cstackCOMMON 0076
+send_data@rw                   cstackCOMMON 0075
+send_data@t                    cstackCOMMON 0078
+stackhi                        (abs)        0000
+stacklo                        (abs)        0000
+start                          init         0012
+start_initialization           cinit        0015
+strlen@cp                      cstackBANK0  0029
+strlen@s                       cstackBANK0  0025
+strncat@cp                     cstackBANK0  002A
+strncat@from                   cstackBANK0  0025
+strncat@size                   cstackBANK0  0026
+strncat@to                     cstackBANK0  0029
+strncpy@cp                     cstackBANK0  002C
+strncpy@from                   cstackBANK0  0025
+strncpy@size                   cstackBANK0  0027
+strncpy@to                     cstackBANK0  002D
+wtemp0                         (abs)        007E
+
+
+FUNCTION INFORMATION:
+
+ *************** function _main *****************
+ Defined at:
+		line 549 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  message_leng    2   44[BANK0 ] short 
+  message_leng    2   42[BANK0 ] short 
+  buffer_lengt    2   40[BANK0 ] short 
+  message_leng    2   38[BANK0 ] short 
+  blank           5   33[BANK0 ] unsigned char [5]
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0      13       0       0       0
+      Temps:          0       3       0       0       0
+      Totals:         0      16       0       0       0
+Total ram usage:       16 bytes
+ Hardware stack levels required when called:    7
+ This function calls:
+		_choose_digit_display
+		_clear
+		_control_speed
+		_init
+		_left_rotate
+		_rTrim
+		_read_eeprom
+		_save_in_eeprom
+		_strlen
+		_strncat
+		_strncpy
+ This function is called by:
+		Startup code after reset
+ This function uses a non-reentrant model
+
+
+ *************** function _strncpy *****************
+ Defined at:
+		line 8 in file "C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\strncpy.c"
+ Parameters:    Size  Location     Type
+  to              1    wreg     PTR unsigned char 
+		 -> buffer(7), 
+  from            2    5[BANK0 ] PTR const unsigned char 
+		 -> greeting_message(35), message(80), 
+  size            2    7[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+  to              1   13[BANK0 ] PTR unsigned char 
+		 -> buffer(7), 
+  cp              1   12[BANK0 ] PTR unsigned char 
+		 -> buffer(7), 
+ Return value:  Size  Location     Type
+                  1    wreg      PTR unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       4       0       0       0
+      Locals:         0       2       0       0       0
+      Temps:          0       3       0       0       0
+      Totals:         0       9       0       0       0
+Total ram usage:        9 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _strncat *****************
+ Defined at:
+		line 9 in file "C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\strncat.c"
+ Parameters:    Size  Location     Type
+  to              1    wreg     PTR unsigned char 
+		 -> message(80), 
+  from            1    5[BANK0 ] PTR const unsigned char 
+		 -> main@blank(5), 
+  size            2    6[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+  to              1    9[BANK0 ] PTR unsigned char 
+		 -> message(80), 
+  cp              1   10[BANK0 ] PTR unsigned char 
+		 -> message(80), 
+ Return value:  Size  Location     Type
+                  1    wreg      PTR unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       3       0       0       0
+      Locals:         0       2       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       6       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _save_in_eeprom *****************
+ Defined at:
+		line 222 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  j               2   22[BANK0 ] int 
+  message_leng    1   21[BANK0 ] unsigned char 
+  temp            1   20[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       4       0       0       0
+      Temps:          0       2       0       0       0
+      Totals:         0       6       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_clear
+		_delay
+		_eeprom_write
+		_strlen
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _eeprom_write *****************
+ Defined at:
+		line 6 in file "C:\Program Files (x86)\Microchip\xc8\v1.44\sources\pic\eewrite.c"
+ Parameters:    Size  Location     Type
+  addr            1    wreg     unsigned char 
+  value           1    5[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  addr            1    7[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       1       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       3       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_save_in_eeprom
+ This function uses a non-reentrant model
+
+
+ *************** function _clear *****************
+ Defined at:
+		line 146 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  m               2   16[BANK0 ] int 
+  n               2   14[BANK0 ] int 
+  message_leng    2   12[BANK0 ] short 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       6       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       7       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_strlen
+ This function is called by:
+		_save_in_eeprom
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _strlen *****************
+ Defined at:
+		line 4 in file "C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\strlen.c"
+ Parameters:    Size  Location     Type
+  s               2    5[BANK0 ] PTR const unsigned char 
+		 -> greeting_message(35), buffer(7), message(80), 
+ Auto vars:     Size  Location     Type
+  cp              2    9[BANK0 ] PTR const unsigned char 
+		 -> greeting_message(35), buffer(7), message(80), 
+ Return value:  Size  Location     Type
+                  2    5[BANK0 ] unsigned int 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       2       0       0       0
+      Locals:         0       2       0       0       0
+      Temps:          0       2       0       0       0
+      Totals:         0       6       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_clear
+		_save_in_eeprom
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _read_eeprom *****************
+ Defined at:
+		line 251 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  j               2   10[BANK0 ] int 
+  message_leng    1    9[BANK0 ] unsigned char 
+  temp            1    8[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       4       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       5       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_eeprom_read
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _eeprom_read *****************
+ Defined at:
+		line 6 in file "C:\Program Files (x86)\Microchip\xc8\v1.44\sources\pic\eeread.c"
+ Parameters:    Size  Location     Type
+  addr            1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  addr            1    6[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       2       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_read_eeprom
+ This function uses a non-reentrant model
+
+
+ *************** function _rTrim *****************
+ Defined at:
+		line 122 in file "main.c"
+ Parameters:    Size  Location     Type
+  str             1    wreg     PTR unsigned char 
+		 -> message(80), 
+ Auto vars:     Size  Location     Type
+  str             1   10[BANK0 ] PTR unsigned char 
+		 -> message(80), 
+  i               2    8[BANK0 ] int 
+  index           2    6[BANK0 ] int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       5       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       6       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _left_rotate *****************
+ Defined at:
+		line 275 in file "main.c"
+ Parameters:    Size  Location     Type
+  arr             2   21[BANK0 ] PTR unsigned char 
+		 -> greeting_message(35), buffer(7), message(80), 
+  d               2   23[BANK0 ] int 
+  n               2   25[BANK0 ] int 
+ Auto vars:     Size  Location     Type
+  k               2   28[BANK0 ] int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       6       0       0       0
+      Locals:         0       2       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       9       0       0       0
+Total ram usage:        9 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_left_rotate_by_one
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _left_rotate_by_one *****************
+ Defined at:
+		line 265 in file "main.c"
+ Parameters:    Size  Location     Type
+  arr             2    5[BANK0 ] PTR unsigned char 
+		 -> greeting_message(35), buffer(7), message(80), 
+  n               2    7[BANK0 ] int 
+ Auto vars:     Size  Location     Type
+  j               2   19[BANK0 ] int 
+  temp            2   17[BANK0 ] int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       4       0       0       0
+      Locals:         0       4       0       0       0
+      Temps:          0       8       0       0       0
+      Totals:         0      16       0       0       0
+Total ram usage:       16 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_left_rotate
+ This function uses a non-reentrant model
+
+
+ *************** function _init *****************
+ Defined at:
+		line 167 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _control_speed *****************
+ Defined at:
+		line 306 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_delay
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _delay *****************
+ Defined at:
+		line 214 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  i               2    6[BANK0 ] int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       2       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       3       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_save_in_eeprom
+		_control_speed
+ This function uses a non-reentrant model
+
+
+ *************** function _choose_digit_display *****************
+ Defined at:
+		line 326 in file "main.c"
+ Parameters:    Size  Location     Type
+  n               1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  n               1    6[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       2       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _isr *****************
+ Defined at:
+		line 349 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       5       0       0       0
+      Totals:         0       5       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_display
+ This function is called by:
+		Interrupt level 1
+ This function uses a non-reentrant model
+
+
+ *************** function _display *****************
+ Defined at:
+		line 300 in file "main.c"
+ Parameters:    Size  Location     Type
+  ch              1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  ch              1   10[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         1       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_send_data
+ This function is called by:
+		_isr
+ This function uses a non-reentrant model
+
+
+ *************** function _send_data *****************
+ Defined at:
+		line 282 in file "main.c"
+ Parameters:    Size  Location     Type
+  rw              1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  rw              1    5[COMMON] unsigned char 
+  t               2    8[COMMON] unsigned int 
+  mask            2    6[COMMON] unsigned int 
+  flag            2    3[COMMON] unsigned int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         7       0       0       0       0
+      Temps:          3       0       0       0       0
+      Totals:        10       0       0       0       0
+Total ram usage:       10 bytes
+ Hardware stack levels used:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_display
+ This function uses a non-reentrant model
+
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\strncat.c
+		_strncat       		CODE           	0ED0	0000	56
+
+C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\strncat.c estimated size: 56
+
+C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\strncpy.c
+		_strncpy       		CODE           	0F7F	0000	64
+
+C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\strncpy.c estimated size: 64
+
+shared
+		__stringtab    		STRING         	0600	0000	7
+		__initialization		CODE           	0015	0000	46
+		_CHAR_DATA     		STRING         	0606	0000	129
+
+shared estimated size: 182
+
+C:\Program Files (x86)\Microchip\xc8\v1.44\sources\pic\eeread.c
+		_eeprom_read   		CODE           	0E1F	0000	37
+
+C:\Program Files (x86)\Microchip\xc8\v1.44\sources\pic\eeread.c estimated size: 37
+
+C:\Program Files (x86)\Microchip\xc8\v1.44\sources\pic\eewrite.c
+		_eeprom_write  		CODE           	05CF	0000	49
+
+C:\Program Files (x86)\Microchip\xc8\v1.44\sources\pic\eewrite.c estimated size: 49
+
+main.c
+		_init          		CODE           	0F07	0000	60
+		_delay         		CODE           	0DB9	0000	33
+		_display       		CODE           	07F3	0000	8
+		_left_rotate_by_one		CODE           	0686	0000	114
+		_send_data     		CODE           	07AA	0000	74
+		_main          		CODE           	0046	0000	657
+		_control_speed 		CODE           	0FBE	0000	67
+		_isr           		CODE           	02D6	0000	611
+		_save_in_eeprom		CODE           	0538	0000	152
+		_left_rotate   		CODE           	0E43	0000	41
+		_clear         		CODE           	06F7	0000	100
+		_rTrim         		CODE           	0F42	0000	62
+		_read_eeprom   		CODE           	0E9B	0000	54
+		_choose_digit_display		CODE           	0E6B	0000	49
+
+main.c estimated size: 2082
+
+C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\strlen.c
+		_strlen        		CODE           	0DD9	0000	36
+
+C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\strlen.c estimated size: 36
+
