@@ -1,2 +1,2 @@
 # Scrolling_display
-Messages on 16 segments LED display
+video: https://www.youtube.com/watch?v=rzXzmcrgy1s
